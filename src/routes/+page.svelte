@@ -16,7 +16,15 @@
 	imageSrc="/sample.png"
 	generating
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/lendlease.com',
+		'https://logo.clearbit.com/starbucks.com',
+		'https://logo.clearbit.com/toyota.com',
+		'https://logo.clearbit.com/mcdonalds.com'
+	]}
+/>
 
 <Summary
 	generating
